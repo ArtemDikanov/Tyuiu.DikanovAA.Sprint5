@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35303.130
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.DikanovAA.Sprint5.Task0.V9", "Tyuiu.DikanovAA.Sprint5.Task0.V9\Tyuiu.DikanovAA.Sprint5.Task0.V9.csproj", "{13D68849-E6CA-4945-ACF5-FE392257D78A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.DikanovAA.Sprint5.Task0.V9.Lib", "Tyuiu.DikanovAA.Sprint5.Task0.V9.Lib\Tyuiu.DikanovAA.Sprint5.Task0.V9.Lib.csproj", "{4C34AF49-B062-4BA2-AFE8-20B5BF0F0079}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.DikanovAA.Sprint5.Task0.V9.Test", "Tyuiu.DikanovAA.Sprint5.Task0.V9.Test\Tyuiu.DikanovAA.Sprint5.Task0.V9.Test.csproj", "{1A839A68-37AA-4378-AADB-140EC7DAEDE3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{13D68849-E6CA-4945-ACF5-FE392257D78A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13D68849-E6CA-4945-ACF5-FE392257D78A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13D68849-E6CA-4945-ACF5-FE392257D78A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13D68849-E6CA-4945-ACF5-FE392257D78A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C34AF49-B062-4BA2-AFE8-20B5BF0F0079}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C34AF49-B062-4BA2-AFE8-20B5BF0F0079}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C34AF49-B062-4BA2-AFE8-20B5BF0F0079}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C34AF49-B062-4BA2-AFE8-20B5BF0F0079}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A839A68-37AA-4378-AADB-140EC7DAEDE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A839A68-37AA-4378-AADB-140EC7DAEDE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A839A68-37AA-4378-AADB-140EC7DAEDE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A839A68-37AA-4378-AADB-140EC7DAEDE3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E0AA1BA6-7A9C-468E-8FAA-F1B67CFACCDD}
+	EndGlobalSection
+EndGlobal
