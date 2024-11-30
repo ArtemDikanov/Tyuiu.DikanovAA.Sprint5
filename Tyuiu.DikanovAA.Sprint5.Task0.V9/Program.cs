@@ -8,7 +8,7 @@ namespace Tyuiu.DikanovAA.Sprint5.Task0.V9
             int x = 3;
 
             DataService ds = new DataService();
-            Console.Write("x = " + x);
+            Console.Write("x = " + x);//
             Console.WriteLine();
             string res = ds.SaveToFileTextData(x);
             Console.WriteLine("Файл: " + res);

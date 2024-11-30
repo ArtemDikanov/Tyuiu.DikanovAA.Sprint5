@@ -8,7 +8,7 @@ namespace Tyuiu.DikanovAA.Sprint5.Task0.V9.Lib
         {
             string path = Path.Combine(new string[] { Path.GetTempPath(), "OutPutFileTask0.txt" });                                                            //$@"{Directory.GetCurrentDirectory()}\OutPutFileTask0.txt";
             double y = Math.Round( (Math.Pow(x, 3) / (Math.Pow(x, 2) - 1)), 3);
-            File.WriteAllText(path, Convert.ToString(y));
+            File.WriteAllText(path, Convert.ToString(y));//
             return path;
         }
     }

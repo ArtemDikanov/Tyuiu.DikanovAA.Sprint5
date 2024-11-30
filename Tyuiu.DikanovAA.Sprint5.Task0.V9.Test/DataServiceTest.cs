@@ -13,5 +13,5 @@ namespace Tyuiu.DikanovAA.Sprint5.Task0.V9.Test
             bool wait = true;
             Assert.AreEqual(wait, fileExists); //"C:\Users\user\source\repos\Tyuiu.DikanovAA.Sprint5\Tyuiu.DikanovAA.Sprint5.Task0.V9\bin\Debug\OutPutFileTask0.txt.txt"
         }
-    }
+    }//
 }
