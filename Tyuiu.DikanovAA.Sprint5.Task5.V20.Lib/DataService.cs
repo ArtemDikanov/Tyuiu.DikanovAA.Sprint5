@@ -13,7 +13,7 @@ namespace Tyuiu.DikanovAA.Sprint5.Task5.V20.Lib
                 double ress = 0;
                 while ((line = reader.ReadLine()) != null)
                 {
-                    if (line.Contains(".") == false)
+                    if ((line.Contains(".") == false) && ((Convert.ToDouble(line) > -10) && (Convert.ToDouble(line) < 10)) )
                     {
                         res += Convert.ToInt32(line);
                         count++;
