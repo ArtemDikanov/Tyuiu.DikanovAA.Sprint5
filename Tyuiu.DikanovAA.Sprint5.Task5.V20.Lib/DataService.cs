@@ -1,28 +1,29 @@
 ﻿using tyuiu.cources.programming.interfaces.Sprint5;
+using System.IO;
+using System.Globalization;
 namespace Tyuiu.DikanovAA.Sprint5.Task5.V20.Lib
 {
     public class DataService : ISprint5Task5V20
     {
         public double LoadFromDataFile(string path)
         {
-            double res = 0;
-            using (StreamReader reader = new StreamReader(path))
+            string text = File.ReadAllText(path);
+            string[] strings = text.Split(' ');
+            List<double> data = [];
+            double sum = 0;
+            foreach (string str in strings)
             {
-                string line;
-                int count = 0;
-                double ress = 0;
-                while ((line = reader.ReadLine()) != null)
+                double number = double.Parse(str, CultureInfo.InvariantCulture);
+                if (number % 1 == 0 && number >= -10 && number <= 10)
                 {
-                    if ((line.Contains(".") == false) && ((Convert.ToDouble(line) > -10) && (Convert.ToDouble(line) < 10)) )
-                    {
-                        res += Convert.ToInt32(line);
-                        count++;
-                    }
+                    data.Add(number);
                 }
-                res = res / count;
-               
             }
-            return Math.Round(res, 3);//
+            foreach (double number in data)
+            {
+                sum += number;
+            }
+            return Math.Round(sum / data.Count, 3);
         }
     }
 }
