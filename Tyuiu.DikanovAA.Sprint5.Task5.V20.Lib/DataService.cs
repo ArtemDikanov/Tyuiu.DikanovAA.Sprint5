@@ -22,7 +22,7 @@ namespace Tyuiu.DikanovAA.Sprint5.Task5.V20.Lib
                 res = res / count;
                
             }
-            return Math.Round(res, 3);
+            return Math.Round(res, 3);//
         }
     }
 }
