@@ -5,7 +5,7 @@ namespace Tyuiu.DikanovAA.Sprint5.Task7.V11.Lib
     {
         public string LoadDataAndSave(string path)
         {
-            string pathSaveFile = @"C:\DataSprint5\OutPutDataFileTask7V11.txt";
+            string pathSaveFile = Path.Combine(new string[] { Path.GetTempPath(), "OutPutFileTask7V11.txt" }); //string pathSaveFile = @"C:\DataSprint5\OutPutDataFileTask7V11.txt";
 
             FileInfo fileInfo = new FileInfo(pathSaveFile);
             bool fileExists = fileInfo.Exists;
@@ -18,7 +18,7 @@ namespace Tyuiu.DikanovAA.Sprint5.Task7.V11.Lib
             string strLine = "";
             using (StreamReader reader = new StreamReader(path))
             {
-                string line;
+                string? line;
                 while ((line = reader.ReadLine()) != null)
                 {
                     for (int i = 0; i < line.Length; i++)
