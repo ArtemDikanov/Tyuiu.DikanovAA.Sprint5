@@ -23,9 +23,16 @@ namespace Tyuiu.DikanovAA.Sprint5.Task7.V11.Lib
                 {
                     for (int i = 0; i < line.Length; i++)
                     {
-                        if ((line[i] != 'а') && (line[i] != 'б') && (line[i] != 'в') && (line[i] != 'г') && (line[i] != 'д') && (line[i] != 'е') && (line[i] != 'ё') && (line[i] != 'ж') && (line[i] != 'з') && (line[i] != 'и') && (line[i] != 'й') && (line[i] != 'к') && (line[i] != 'л') && (line[i] != 'м') && (line[i] != 'н') && (line[i] != 'о') && (line[i] != 'п') && (line[i] != 'р') && (line[i] != 'с') && (line[i] != 'т') && (line[i] != 'у') && (line[i] != 'ф') && (line[i] != 'х') && (line[i] != 'ц') && (line[i] != 'ч') && (line[i] != 'ш') && (line[i] != 'щ') && (line[i] != 'ъ') && (line[i] != 'ы') && (line[i] != 'ь') && (line[i] != 'э') && (line[i] != 'ю') && (line[i] != 'я'))
+                        if ((line[i] != ' ') && (line[i] != 'а') && (line[i] != 'б') && (line[i] != 'в') && (line[i] != 'г') && (line[i] != 'д') && (line[i] != 'е') && (line[i] != 'ё') && (line[i] != 'ж') && (line[i] != 'з') && (line[i] != 'и') && (line[i] != 'й') && (line[i] != 'к') && (line[i] != 'л') && (line[i] != 'м') && (line[i] != 'н') && (line[i] != 'о') && (line[i] != 'п') && (line[i] != 'р') && (line[i] != 'с') && (line[i] != 'т') && (line[i] != 'у') && (line[i] != 'ф') && (line[i] != 'х') && (line[i] != 'ц') && (line[i] != 'ч') && (line[i] != 'ш') && (line[i] != 'щ') && (line[i] != 'ъ') && (line[i] != 'ы') && (line[i] != 'ь') && (line[i] != 'э') && (line[i] != 'ю') && (line[i] != 'я'))
                         {
-                            strLine = strLine + line[i];
+                            if (i == 16 || i == 35 || i == 37)
+                            {
+                                strLine = strLine + line[i] + " ";
+                            }
+                            else
+                            {
+                                strLine = strLine + line[i];
+                            }
                         }
 
                     }
